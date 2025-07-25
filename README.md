@@ -51,5 +51,59 @@ pip install pillow
 - This client expects a compatible server implementation.
 - For demonstration and learning purposes; not intended for production use.
 
+# Python Voice Assistant
 
-*Made with ❤️ using
+A simple voice assistant for Windows that can:
+- Recognize your voice commands
+- Search Google
+- Play YouTube videos
+- Open apps (Notepad, Calculator, Paint)
+- Open any website
+- Respond to greetings and exit commands
+
+## Features
+
+- **Say "hello"** – The assistant will greet you.
+- **Say "search ... on google"** – Opens a Google search for your query.
+- **Say "play ... on youtube"** – Plays the first YouTube video for your query.
+- **Say "open notepad/calculator/paint"** – Opens the specified app.
+- **Say "open [website]"** – Opens the website (e.g., "open google" or "open github.com").
+- **Say "exit" or "quit"** – Closes the assistant.
+
+## Requirements
+
+- Python 3.7+
+- [speech_recognition](https://pypi.org/project/SpeechRecognition/)
+- [pyttsx3](https://pypi.org/project/pyttsx3/)
+- [pytube](https://pypi.org/project/pytube/)
+- [requests](https://pypi.org/project/requests/)
+- [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+
+Install dependencies with:
+
+```bash
+python -m pip install speechrecognition pyttsx3 pytube requests beautifulsoup4
+```
+
+## Usage
+
+1. Make sure your microphone is connected.
+2. Run the assistant:
+
+```bash
+python main.py
+```
+
+3. Speak your command when prompted.
+
+## Example Commands
+
+- `hello`
+- `search python tutorials on google`
+- `play relaxing music on youtube`
+- `open notepad`
+- `open github.com`
+- `exit`
+
+---
+
