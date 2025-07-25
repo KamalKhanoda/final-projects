@@ -1,6 +1,6 @@
 # Final-projects
 
-# Chat App
+# 1. Chat App
 
 ChatiPY is a simple Python-based chat application with a graphical interface built using Tkinter. It allows users to sign up, log in, select a profile photo, see online users, and exchange messages in real time.
 
@@ -51,7 +51,7 @@ pip install pillow
 - This client expects a compatible server implementation.
 - For demonstration and learning purposes; not intended for production use.
 
-# Python Voice Assistant
+# 2. Python Voice Assistant
 
 A simple voice assistant for Windows that can:
 - Recognize your voice commands
